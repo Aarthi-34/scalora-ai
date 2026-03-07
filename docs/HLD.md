@@ -21,6 +21,8 @@ Future architecture with AI integration:
 
 User → Web Interface → Backend API → AI Model → Generated Content → UI Display
 
+![Scalora AI Architecture](Scalora - architecture-diagram.png)
+
 ---
 
 ## Major Components
