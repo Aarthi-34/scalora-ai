@@ -33,18 +33,17 @@ Handles user interaction including:
 - Generate buttons
 - Result display area
 
-### 2. Generator Logic
+### 2. Generic Logic
 JavaScript functions process user input and generate results.
 
 Example:
 - Validate input
 - Generate hooks
-- Replace old results with new results
+- Updating the UI with results
 
 ### 3. Content Output Module
 Displays generated hooks dynamically in the UI.
-
----
+Old results are replaced when new hooks are generated.
 
 ## Technology Stack
 
