@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scalora AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+    <div class="container">
+        <h1>Scalora AI</h1>
+        <p class="tagline">AI Tools for Creators to Grow Faster</p>
+        <div class="tools">
+            
+            <div class="tools-container" >
+
+    <div class="tool-card" onclick="openHookTool()">
+        Hook Generator
+    </div>
+
+    <div class="tool-card" onclick="comingSoon()">
+        Caption Generator
+    </div>
+
+    <div class="tool-card">
+        Post Idea Generator
+    </div>
+
+</div>
+    <div id="hookTool" style="display: none; margin-top: 40px;">
+        <h2>Hook Generator</h2>
+        <input type="text" id="nicheInput" placeholder="Enter your niche" >
+
+        <br><br>
+
+        <button onclick="generateHooks()">Generate Hooks</button>
+        <button onclick="copyHooks()">Copy All Hooks</button>
+            <div id="output"></div>
+    </div>
+    </div>  
+    <div class="tool-box">
+        <h2>Content Hook Generator</h2>
+        <input type="text" id="nicheInput" placeholder="Enter your niche" >
+        <button onclick="generateHooks()">Generate Hooks</button>
+        <button onclick="copyHooks()">Copy All Hooks</button>
+            <div id="output"></div>
+    </div>
+      
+    </div>
+
+    <script src="script.js"></script>
+</body> 
+</html>
